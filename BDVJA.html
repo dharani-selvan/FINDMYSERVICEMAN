@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>mini</title>
+<style>
+*{
+box-sizing:border-box;
+}
+#vinoth
+{
+display:flex;
+
+left:50px;
+min-height:100vh;
+background-image:url('vinoth.png');
+background-size:70% 100%;
+background-repeat:no-repeat;
+background-position:center;
+background-color:#f7f7f7;
+padding:100px 250px 250px 250px;
+left:110px;
+}
+#one
+{
+color:black;
+width:400px;
+border-radius:4px;
+font-family:times new roman;
+overflow:hidden;
+font-size:50px;
+}
+#kisoth
+{
+color:blue;
+font-size:30px;
+}
+
+
+</style>
+</head>
+
+<body>
+<div id="vinoth">
+<form >
+<center>
+<br><br>
+<h1 id=one>find my serviceman</h1><br><br>
+<input type="button" id=kisoth  value="SIGN IN" onclick="signin()" ><br><br><br>
+<input type="button" id=kisoth  value="LOGIN" onclick="login()"><br><br><br>
+<input type="button" id=kisoth  value="COMPLAINT" onclick="register()">
+</center>
+</form>
+</div>
+<script>
+function signin() {
+  location.replace("signin.html")
+
+
+}
+function login() {
+  location.replace("login.html")
+}
+function register() {
+  location.replace("register.html")
+}
+</script>
+</body>
+</html>
